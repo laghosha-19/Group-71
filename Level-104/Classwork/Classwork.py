@@ -1,5 +1,5 @@
 # 1) დაწერეთ პროგრამირებაში დაშვებული შეცდომების ორი კატეგორია. კომენტარის სახით ჩამოწერეთ Error-ების ტიპები, რომლებიც განვიხილეთ.
-# errors - bugs & exeprtions (typeError, syntaxError, nameError,)
+# errors - bugs & exeptions (typeError, syntaxError, nameError,)
 
 # 1) 2) შექმენით სია და სცადეთ დაბეჭდოთ ელემენტი, რომელიც სიის range-ის საზღვარს გარეთ იქნება. except-ში დაბეჭდეთ: “Such index doesn’t exist”
 
