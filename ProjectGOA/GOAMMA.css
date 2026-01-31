@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0B1210;
+    font-family: "Arimo", sans-serif;
+    height: auto;
+}
+
+header {
+    width: auto;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    background: #101916;
+    z-index: 1000;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Navigator {
+    display: flex;
+    gap: 30px;
+
+}
+
+.Navigator a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.7rem;
+    transition: 0.3s;
+}
+
+.Navigator a:hover {
+    color: #1bda9b;
+    text-shadow: 1px 0px 2px;
+    transition: 0.3s;
+}
+
+.GoaLogo img {
+    width: 200px;
+}
+
+.login {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.fa-hand-holding-dollar {
+    margin-bottom: 5px;
+}
+
+.GOAMMAPhoto{
+    width: 600px;
+}
+
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.MMAdiv2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    width: 50%;
+    font-size: 22px;
+}
+.VIDS{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.MVID{
+    display: flex;
+    gap: 30px;
+}
+
+
+footer{
+    color: #fff;
+    margin-top: 10%;
+}
+
+.everything{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #101916;
+}
+.pagesNavigation{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+
+}
+.pagesNavigation a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.socialMedia{
+    font-size: 25px;
+}
+.socialMedia p {
+    margin-top: 10px;
+}
+.fa-bars{
+    display: flex;
+    color: #fff;
+    cursor: pointer;
+}
+@media (max-width:1100px) {
+    .hero{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .GOAMMAPhoto{
+        width:300px;
+    }
+    .mmatext{
+        font-size: 17px;
+    }
+    .MVID{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:650px){
+    .footerlogo{
+        display:none;
+    }
+    .headerlogo{
+        display: none;
+    }
+    .Navigator{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        background-color: #101916;
+        padding: 20px 0;
+        gap: 20px;
+    }
+    .Nav1{
+        display: none;
+    }
+    .Nav2{
+        display: none;
+    }
+    .Nav3{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

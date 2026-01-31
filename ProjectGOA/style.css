@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0B1210;
+    font-family: "Arimo", sans-serif;
+    height: auto;
+}
+
+header {
+    width: auto;
+    height: 100px;
+    /* border: 1px solid #303030; */
+    position: sticky;
+    top: 0;
+    background: #101916;
+    z-index: 1000;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Navigator {
+    display: flex;
+    gap: 30px;
+
+}
+
+.Navigator a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.7rem;
+    transition: 0.3s;
+}
+
+.Navigator a:hover {
+    color: #1bda9b;
+    text-shadow: 1px 0px 2px;
+    transition: 0.3s;
+}
+
+.GoaLogo img {
+    width: 200px;
+}
+
+.login {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.fa-hand-holding-dollar {
+    margin-bottom: 5px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.hero {
+    color: #fff;
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    gap: 1%;
+    justify-content: space-between;
+    height: min-content;
+}
+
+.Card1 {
+    background-color: #192e27;
+    border-radius: 20px;
+    /* width: 250%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    transition: 1s;
+    padding: 10px;
+    /* height: 110%; */
+}
+
+.Card2 {
+    background-color: #192e27;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    /* height: 110%; */
+}
+
+.Card3 {
+    background-color: #192e27;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    /* height: 110%; */
+}
+
+.Card1:hover {
+    background-color: #1bda9b;
+    transition: 1s;
+}
+
+.Card2:hover {
+    background-color: #1bda9b;
+    transition: 1s;
+}
+
+.Card3:hover {
+    background-color: #1bda9b;
+    transition: 1s;
+}
+
+@media (max-width: 1000px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+h1 {
+    margin-top: 40px;
+}
+
+.visual-side {
+    display: flex;
+    gap: 10px;
+    margin-top: 60px;
+}
+
+.video3 {
+    border-radius: 10px;
+}
+
+@media (max-width: 1000px) {
+    .visual-side {
+        display: grid;
+        grid-template-columns: 500px 500px;
+    }
+
+}
+
+@media (max-width: 999px) {
+    .visual-side {
+        display: grid;
+        grid-template-columns: 500px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .video1 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .video2 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .video3 {
+        width: 300px;
+        height: 300px;
+    }
+
+}
+
+
+footer{
+    color: #fff;
+    margin-top: 10%;
+}
+
+.everything{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #101916;
+}
+.pagesNavigation{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+
+}
+.pagesNavigation a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.socialMedia{
+    font-size: 25px;
+}
+.socialMedia p {
+    margin-top: 10px;
+}

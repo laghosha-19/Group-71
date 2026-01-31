@@ -263,12 +263,14 @@ footer {
 }
 
 
-.icons{
+.icons {
     font-size: 30px;
 }
-.fa-facebook{
+
+.fa-facebook {
     color: blue;
 }
-.fa-instagram{
+
+.fa-instagram {
     color: red;
 }
