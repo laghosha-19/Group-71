@@ -109,3 +109,4 @@ mapped_minutes = list(map(lambda min: min(minutes / 60), minutes))
 
 print(mapped_minutes)
 
+
